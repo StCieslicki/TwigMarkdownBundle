@@ -1,0 +1,6 @@
+framework:
+  router:
+    resource: ~
+  secret: secr3t
+  templating:
+    engines: ['twig']

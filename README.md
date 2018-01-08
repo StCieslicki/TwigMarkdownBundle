@@ -8,7 +8,7 @@ Add to `composer.json`
 
     {
         "require": {
-            "hashnz/twig-markdown-bundle": "dev-master"
+            "stahoos/twig-markdown-bundle": "dev-master"
         }
     }
     
@@ -16,7 +16,7 @@ Register the bundle in app/AppKernel.php
 
     $bundles = array(
         // ...
-        new Hashnz\TwigMarkdownBundle\HashnzTwigMarkdownBundle(),
+        new Stahoos\TwigMarkdownBundle\StahoosTwigMarkdownBundle(),
     );
 
 ## Usage

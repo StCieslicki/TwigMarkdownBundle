@@ -1,27 +1,27 @@
 {
-    "name":        "hashnz/twig-markdown-bundle",
+    "name":        "stahoos/twig-markdown-bundle",
     "type":        "symfony-bundle",
     "description": "Wrapper for https://github.com/aptoma/twig-markdown",
     "keywords":    ["markdown", "twig", "bundle"],
-    "homepage":    "https://github.com/hashnz/TwigMarkdownBundle",
+    "homepage":    "https://github.com/stahoos/TwigMarkdownBundle",
     "license":     "MIT",
 
     "authors": [
         {
-            "name": "hashnz"
+            "name": "stahoos"
         }
     ],
 
     "require": {
-        "php": ">=5.4",
-        "symfony/symfony": "~2.1",
-        "michelf/php-markdown": "~1.3",
-        "aptoma/twig-markdown": "~1.0"
+        "php": ">=5.6",
+        "symfony/symfony": "~3",
+        "michelf/php-markdown": "~1.7.0",
+        "aptoma/twig-markdown": "~3.0.0"
     },
 
     "autoload": {
         "psr-4": {
-            "Hashnz\\TwigMarkdownBundle\\": "src"
+            "Stahoos\\TwigMarkdownBundle\\": "src"
         }
     }
 }

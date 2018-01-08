@@ -1,6 +1,6 @@
 <?php
 
-//namespace Hashnz\TwigMarkdownBundle\Tests;
+//namespace Stahoos\TwigMarkdownBundle\Tests;
 
 
 use Symfony\Component\Config\Loader\LoaderInterface;
@@ -19,7 +19,7 @@ class AppKernel extends Kernel
         return array(
             new \Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new \Symfony\Bundle\TwigBundle\TwigBundle(),
-            new Hashnz\TwigMarkdownBundle\HashnzTwigMarkdownBundle(),
+            new Stahoos\TwigMarkdownBundle\StahoosTwigMarkdownBundle(),
         );
     }
 

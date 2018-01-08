@@ -5,14 +5,14 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <parameters>
-        <parameter key="hashnz_twig_markdown.engine.class">Aptoma\Twig\Extension\MarkdownEngine\MichelfMarkdownEngine</parameter>
-        <parameter key="hashnz_twig_markdown.extension.class">Aptoma\Twig\Extension\MarkdownExtension</parameter>
+        <parameter key="stahoos_twig_markdown.engine.class">Aptoma\Twig\Extension\MarkdownEngine\MichelfMarkdownEngine</parameter>
+        <parameter key="stahoos_twig_markdown.extension.class">Aptoma\Twig\Extension\MarkdownExtension</parameter>
     </parameters>
 
     <services>
-        <service id="hashnz_twig_markdown.engine" class="%hashnz_twig_markdown.engine.class%" />
-        <service id="hashnz_twig_markdown.extension" class="%hashnz_twig_markdown.extension.class%">
-            <argument type="service" id="hashnz_twig_markdown.engine" />
+        <service id="stahoos_twig_markdown.engine" class="%stahoos_twig_markdown.engine.class%" />
+        <service id="stahoos_twig_markdown.extension" class="%stahoos_twig_markdown.extension.class%">
+            <argument type="service" id="stahoos_twig_markdown.engine" />
             <tag name="twig.extension" />
         </service>
     </services>

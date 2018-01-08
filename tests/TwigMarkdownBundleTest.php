@@ -17,10 +17,10 @@ class TwigMarkdownBundleTest extends WebTestCase
 
     public function testServices()
     {
-        $engine = $this->container->get('hashnz_twig_markdown.engine');
+        $engine = $this->container->get('stahoos_twig_markdown.engine');
         $this->assertInstanceOf('Aptoma\Twig\Extension\MarkdownEngine\MichelfMarkdownEngine', $engine);
 
-        $extension = $this->container->get('hashnz_twig_markdown.extension');
+        $extension = $this->container->get('stahoos_twig_markdown.extension');
         $this->assertInstanceOf('Aptoma\Twig\Extension\MarkdownExtension', $extension);
     }
 
